@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Nourhan Ahmed AboElenen">
+  <meta name="description" content="Bank Accounting Online Bank Finance">
+  <link rel="shortcut icon" type="image/png" href="./img/favicon.png"/>
+  <title>Bankist</title>
+  <link href="style.css" rel="stylesheet">
+  <!--font awesome library-->
+  <script src="https://kit.fontawesome.com/5ed78bfa33.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--navbar-->
+  <nav class="nav-bar">
+    <img src="./img/logo.png" class="nav-logo">
+    <div class="nav-default" role="navigation">
+      <ul class="nav-default-list">
+        <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#operations" class="nav-link">Operations</a></li>
+        <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li class="nav-item"><a href="#" class="nav-link btn btn-round green account">Open an account</a></li>
+      </ul>
+    </div>
+    <div class="nav-toggle hidden">
+      <span class="menu-bar">
+      </span>
+      <span class="menu-bar"></span>
+      <span class="menu-bar"></span>
+    </div>
+    <div class="nav-dropdown hidden" role="navigation">
+      <ul class="nav-dropdown-list">
+        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Operations</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Testimonials</a></li>
+        <li class="nav-item"><a href="#" class="nav-link account">Open an account</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--header-->
+  <header class="header container-big">
+    <div class="introduction">
+      <h1 class="headingMain">
+        When 
+        <span class="background">banking</span>
+        meets<br/>
+        <span class="background">minimalist</span>
+      </h1>
+      <p>A simpler banking experience for a simpler life.</p>
+      <a class="btn btn-default" href="#features">Learn more &DownArrow;</a>
+    </div>
+    <img src="./img/hero.png" alt="plant keyboard money" class="hero">
+  </header>
+  <!--content-->
+  <main class="container-sm">
+    <!--features section-->
+    <section id="features" class="section features">
+      <div class="section-title">
+        <h2 class="headingSec">features</h2>
+        <p class="mainPhrase">Everything you need in a modern bank and more.</p>
+      </div>
+      <div class="feature">
+        <img src="./img/digital-lazy.jpg" loading="lazy" alt="computer"  class="img-feature img-filter" data-src="./img/digital.jpg">
+        <div class="description">
+          <i class="fas fa-desktop"></i>
+          <h3 class="headingTri">100% digital bank</h3>
+          <p class="normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti vitae illo voluptate. Amet eum sunt architecto, lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti vitae illo voluptate</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="description">
+          <i class="fas fa-chart-line"></i>
+          <h3 class="headingTri">100% digital bank</h3>
+          <p class="normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti vitae illo voluptate. Amet eum sunt architecto, lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti vitae illo voluptate</p>
+        </div>
+        <img src="./img/grow-lazy.jpg" loading="lazy" alt="plant" class="img-feature img-filter" data-src="./img/grow.jpg">
+      </div>
+      <div class="feature">
+        <img src="./img/card-lazy.jpg" loading="lazy" alt="credit-card" class="img-feature img-filter" data-src="./img/card.jpg">
+        <div class="description">
+          <i class="fas fa-desktop"></i>
+          <h3 class="headingTri">100% digital bank</h3>
+          <p class="normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti vitae illo voluptate. Amet eum sunt architecto, lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti vitae illo voluptate</p>
+        </div>
+      </div>
+    </section>
+    <!--operations section-->
+    <section id="operations" class="section operations">
+      <div class="section-title">
+        <h2 class="headingSec">operations</h2>
+        <p class="mainPhrase">Everything as simple as possible, but no simpler..</p>
+      </div>
+      <div class="operations-content">
+        <div class="operations-tab">
+          <button class="btn btn-round orange pressed" data-tab="one"><span>01</span>Instant Transfers</button>
+          <button class="btn btn-round green" data-tab="two"><span>02</span>Instant Loans</button>
+          <button class="btn btn-round red" data-tab="three"><span>03</span>Instant Closing</button>
+        </div>
+        <div class="operation one">
+          <h3 class="headingTri"><i class="fas fa-suitcase"></i>Tranfser money to anyone, instantly! No fees, no BS.</h3>
+          <p class="normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero nulla animi earum minus eligendi, odit veritatis ducimus asperiores beatae quaerat consequuntu.</p>
+        </div>
+        <div class="operation two hidden">
+          <h3 class="headingTri"><i class="fas fa-money-bill-wave"></i>Buy a home or make your dreams come true, with instant loans.</h3>
+          <p class="normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero nulla animi earum minus eligendi, odit veritatis ducimus asperiores beatae quaerat consequuntu.</p>
+        </div>
+        <div class="operation three hidden">
+          <h3 class="headingTri"><i class="fas fa-user-alt-slash"></i>No longer need your account? No problem! Close it instantly.</h3>
+          <p class="normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero nulla animi earum minus eligendi, odit veritatis ducimus asperiores beatae quaerat consequuntu.</p>
+        </div>
+      </div>
+    </section>
+    <!--testemonials section-->
+    <section id="testimonials" class="section testimonials">
+      <div class="section-title">
+        <h2 class="headingSec">not sure yet?</h2>
+        <p class="mainPhrase">Millions of Bankists are already making their lifes simpler.</p>
+      </div>
+      <div class="slider">
+        <div class="slider-content">
+          <div class="slider-card slider1">
+            <h3 class="headingTri">Best financial decision ever!</h3>
+            <blockquote class="normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nobis provident qui, culpa quo cupiditate! Reiciendis quis voluptatibus, praesentium tempora ipsa nihil inventore fugit molestiae ipsam veritatis necessitatibus, voluptatum consectetur!</blockquote>
+            <address class="reviewer">
+              <img class="reviewer-pic" alt="reviewer1" src="./img/user-1.jpg" loading="lazy">
+              <div class="reviewer-info">
+                <h4 class="name">Miyah Miles</h4>
+                <span>London, UK</span>
+              </div>
+            </address>
+          </div>
+          <div class="slider-card slider2">
+            <h3 class="headingTri">Best financial decision ever!</h3>
+            <blockquote class="normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nobis provident qui, culpa quo cupiditate! Reiciendis quis voluptatibus, praesentium tempora ipsa nihil inventore fugit molestiae ipsam veritatis necessitatibus, voluptatum consectetur!</blockquote>
+            <address class="reviewer">
+              <img class="reviewer-pic"  alt="reviewer2" src="./img/user-2.jpg" loading="lazy">
+              <div class="reviewer-info">
+                <h4 class="name">Francisco Gomes</h4>
+                <span>Lisbon, Portugal</span>
+              </div>
+            </address>
+          </div>
+          <div class="slider-card slider3">
+            <h3 class="headingTri">Best financial decision ever!</h3>
+            <blockquote class="normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nobis provident qui, culpa quo cupiditate! Reiciendis quis voluptatibus, praesentium tempora ipsa nihil inventore fugit molestiae ipsam veritatis necessitatibus, voluptatum consectetur!</blockquote>
+            <address class="reviewer">
+              <img class="reviewer-pic" alt="reviewer3" src="./img/user-3.jpg" loading="lazy">
+              <div class="reviewer-info">
+                <h4 class="name">Aarav Lynn</h4>
+                <span>San Francisco, USA</span>
+              </div>
+            </address>
+          </div>
+        </div>
+        <div class="slider-index">
+          <span class="slider-marker indicator" data-target="0"></span>
+          <span class="slider-marker" data-target="1"></span>
+          <span class="slider-marker" data-target="2"></span>
+        </div>
+        <div class="slider-left">
+          <i class="fas fa-angle-double-left"></i>
+        </div>
+        <div class="slider-right">
+          <i class="fas fa-angle-double-right"></i>
+        </div>
+      </div>
+    </section>
+    <!--sign up form-->
+    <div class="overlay">
+    </div>
+    <div class="signup"> 
+      <button class="btn close"><i class="fas fa-times"></i></button>
+      <form action="" class="form">
+        <h2 class="formTitle">Open your bank account<br/>
+          in just <span class="background">5 minutes</span></h2>
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-input" required id="firstName" name="firstName">
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" class="form-input" required name="lastName" id="lastName">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-input" name="email" id="email">
+        </div>
+        <button class="btn btn-round green">next step &rarr;</button>
+      </form>
+    </div>
+  </main>
+  <!--footer-->
+  <footer class="footer">
+    <div class="top">
+      <p>The best day to join Bankist was one year ago. The second best is today!</p>
+      <a href="javascript:void(0)" class="btn btn-round green account">Open your free account today</a>
+    </div>
+    <div class="bottom">
+      <ul class="footer-list">
+        <li><a href="#">about</a></li>
+        <li><a href="#">pricing</a></li>
+        <li><a href="#">terms of use</a></li>
+        <li><a href="#">privacy policy</a></li>
+        <li><a href="#">careers</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+      <a href="a"><img class="footer-logo" alt="logo" src="./img/favicon.png"></a>
+      <p class="copyrights">This website is made by <a href="https://nourhankg.github.io/MyPortfolio/Portfolio/index.html" target="_blank">Nourhan A.AboElenen</a> with inspiration from Jonas Schmedtmann&copy;</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
